@@ -30,17 +30,17 @@ Proyecto de blog para desarrolladores, donde se pueden crear, editar y eliminar 
     - 9.3- [Documentacion](https://drf-yasg.readthedocs.io/en/stable/readme.html#installation)
     - 9.4- Actualizar urls.py del proyecto
 * 10- Generar archivos estáticos, primero se modifican los settings.py
-    - agregar debajo de STATIC_URL = 'static/' esta linea STATIC_ROOT = './static/'
-    - comando generar archivos estáticos: python manage.py collectstatic
+    - 10.1- agregar debajo de STATIC_URL = 'static/' esta linea STATIC_ROOT = './static/'
+    - 10.2- comando generar archivos estáticos: python manage.py collectstatic
 * 11- Administracion de usuarios, configuraciones en la app users
-    - crear carpeta api
-    - crear archivo __init__.py, este archivo es para que python reconozca la carpeta como un paquete
-    - crear archivo serializers.py
-    - crear archivo views.py
-    - crear archivo router.py
-    - configurar archivos nuevos
-    - configurar urls.py del proyecto
-    - encrytar contraseñas, modificando el serializer.py
+    - 11.1- crear carpeta api
+    - 11.2- crear archivo __init__.py, este archivo es para que python reconozca la carpeta como un paquete
+    - 11.3- crear archivo serializers.py
+    - 11.4- crear archivo views.py
+    - 11.5- crear archivo router.py
+    - 11.6- configurar archivos nuevos
+    - 11.7- configurar urls.py del proyecto
+    - 11.8- encrytar contraseñas, modificando el serializer.py
 * 12 - Agregar autenticación por token, libreria simple JWT
     - [Documentacion](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html)
     - comando instalacion: `pip install djangorestframework-simplejwt`
