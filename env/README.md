@@ -22,13 +22,13 @@ Proyecto de blog para desarrolladores, donde se pueden crear, editar y eliminar 
     - 6.9- Modificar el modelo user para iniciar sesión con el email
 * 7- Instalar Django Rest Framework con `pip install djangorestframework`
 * 8- Crear aplicación posts con `python manage.py startapp posts`
-    - Agregar rest_framework a settings.py
-    - [Documentacion](https://www.django-rest-framework.org/)
+    - 8.1- Agregar rest_framework a settings.py
+    - 8.2- [Documentacion](https://www.django-rest-framework.org/)
 * 9- Instalar libreria de la documentacion "def-yasg" con `pip install -U drf-yasg`
-    - Agregar rest_framework_swagger a settings.py
-    - instalar libreria `pip install -U setuptools`
-    - [Documentacion](https://drf-yasg.readthedocs.io/en/stable/readme.html#installation)
-    - Actualizar urls.py del proyecto
+    - 9.1- Agregar rest_framework_swagger a settings.py
+    - 9.2- instalar libreria `pip install -U setuptools`
+    - 9.3- [Documentacion](https://drf-yasg.readthedocs.io/en/stable/readme.html#installation)
+    - 9.4- Actualizar urls.py del proyecto
 * 10- Generar archivos estáticos, primero se modifican los settings.py
     - agregar debajo de STATIC_URL = 'static/' esta linea STATIC_ROOT = './static/'
     - comando generar archivos estáticos: python manage.py collectstatic
