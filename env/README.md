@@ -125,7 +125,17 @@ Proyecto de blog para desarrolladores, donde se pueden crear, editar y eliminar 
     - instalar libreria gunicorn: ```pip install gunicorn```
     - agregar la libreria a requirements.txt, ejecutando de nuevo el comando
     - borrar migraciones de las aplicaciones y base de datos
-        
+
+# Hosting en https://www.pythonanywhere.com/
+* 1- registrarse
+* 2- confirmar correo
+* 3- elegir una version de python
+* 4- crear repositorio
+* 5- abrir consola, Bash console
+* 6- clonar repositorio, git clone <https del repositorio>
+* 7- crear maquina virtual: ```mkvirtualenv --python=/usr/bin/python3.7 venv```, la version de python depende de la elegida
+* 8- debe tener el repositorio el archivo requirements.txt
+* 9- ejecutar requirements.txt: ```pip install -r requirements.txt```
 
 
 
